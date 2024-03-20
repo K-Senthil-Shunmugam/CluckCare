@@ -11,6 +11,7 @@ https://cluckcare.onrender.com
    - Just pull the following Docker image from Docker Hub
 
    - If you are feeling adventurous and want to modify the code your self then you can clone the repository and use the DockerFile to build your own version of the image using the following cmd.
+
      ```docker build -t <imagename> .```
      
 # Run the Web App Locally 
