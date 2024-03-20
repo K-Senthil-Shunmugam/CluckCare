@@ -5,12 +5,13 @@
 
 # Try out the App
 
-(https://cluckcare.onrender.com)
+https://cluckcare.onrender.com
 
 # Run the Web App in a docker container
    - Just pull the following Docker image from Docker Hub
 
-   - If you are feeling adventurous and want to modify the code your self then you can clone the repository and use the DockerFile to build your own version of the image.
+   - If you are feeling adventurous and want to modify the code your self then you can clone the repository and use the DockerFile to build your own version of the image using the following cmd.
+     ```docker build -t <imagename> .```
      
 # Run the Web App Locally 
    - Clone this repo and install the requirements.txt
@@ -32,7 +33,7 @@ To train the CNN-VGG model for your own dataset, follow these instructions:
 
 2. **Prepare Your Dataset:**
    - you can download the Dataset used in this project either from Kaggle
-(https://www.kaggle.com/datasets/ramkishore1/bird-disease-dataset)
+https://www.kaggle.com/datasets/ramkishore1/bird-disease-dataset
    - Load the dataset from Kaggle or Replace it with your own dataset.
    - I have dropped the NCD class in my version of the code since it has a very low number of samples.
 
