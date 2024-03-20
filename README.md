@@ -73,7 +73,7 @@ https://www.kaggle.com/datasets/ramkishore1/bird-disease-dataset
 
 6. **Save the Trained Model:**
    - After training, the model will be saved as `model.h5` in the same directory.
-   - You can use this trained model for inference in the web app (`app.py`) provided in this repository.
+   - You can use this trained model for inference in the web app `app.py` provided in this repository.
 
 7. **Evaluate Model Performance (Optional):**
    - Optionally, you can evaluate the performance of your trained model on a separate test dataset to assess its accuracy and other metrics.
