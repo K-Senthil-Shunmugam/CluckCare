@@ -30,11 +30,11 @@ Convolutional Neural Network - Visual Geometry Group (CNN-VGG) model implemented
 
 ![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/a86fe681-4b1e-43a5-a262-186a015bbd4c)
 
-**Model Metrics**
-Accuracy: 96.50%
-Precision: 97.00%
-Recall: 97.00%
-F1 Score: 97.00%
+***Model Metrics***
+**Accuracy: 96.50%**
+**Precision: 97.00%**
+**Recall: 97.00%**
+**F1 Score: 97.00%**
 
 ![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/e0509a92-aeed-496f-89fc-8ccad3ae86d2)
 
