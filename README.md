@@ -1,12 +1,20 @@
 # CluckCare
-
-
-# Try out the App
-https://cluckcare.onrender.com
-
 # Web Application Overview
 
 🐔🐥🐓 CluckCare is a website harnessing the power of deep learning convolutional neural networks (CNN-VGG) to predict chicken diseases from uploaded images of their excretions. Our simple yet effective approach aims to assist poultry farmers and veterinarians in promptly identifying potential health issues.
+
+# Try out the App
+
+(https://cluckcare.onrender.com)
+
+# Run the Web App in a docker container
+   - Just pull the following Docker image from Docker Hub
+
+   - If you are feeling adventurous and want to modify the code your self then you can clone the repository and use the DockerFile to build your own version of the image.
+     
+# Run the Web App Locally 
+   - Clone this repo and install the requirements.txt
+   - Run the `app.py` file
 
 # CNN-VGG Model for Image Classification
 
