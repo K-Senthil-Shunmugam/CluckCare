@@ -7,22 +7,40 @@
 
 https://cluckcare.onrender.com
 
+The app is hosted on render cloud with the help of a docker image for you to try it out.
+
 # Run the Web App in a docker container
    - Just pull the following Docker image from Docker Hub
+
+   ```docker.io/senthilshunmugam/cluckcare:1.0```
+
 
    - If you are feeling adventurous and want to modify the code your self then you can clone the repository and use the DockerFile to build your own version of the image using the following cmd.
 
      ```docker build -t <imagename> .```
      
 # Run the Web App Locally 
+
    - Clone this repo and install the requirements.txt
    - Run the `app.py` file
 
-# CNN-VGG Model for Image Classification
+# CNN-VGG Model 
 
 Convolutional Neural Network - Visual Geometry Group (CNN-VGG) model implemented in TensorFlow/Keras for image classification. The model is trained on a dataset consisting of images belonging to three different classes.
 
 ![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/a86fe681-4b1e-43a5-a262-186a015bbd4c)
+
+**Model Metrics**
+Accuracy: 96.50%
+Precision: 97.00%
+Recall: 97.00%
+F1 Score: 97.00%
+
+![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/e0509a92-aeed-496f-89fc-8ccad3ae86d2)
+
+![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/236caf69-983d-4e12-a16f-9f3b4091f64f)
+
+![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/ff00b6e2-c942-443c-b6d8-53577f68f8df)
 
 
 ## Training the Sentiment Analysis Model (Model Training.ipynb)
