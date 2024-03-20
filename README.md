@@ -1,44 +1,46 @@
 # CluckCare
-🐔🐥🐓 CluckCare is a website harnessing the power of deep learning convolutional neural networks (CNN) to predict chicken diseases from uploaded images of their excretions. Our simple yet effective approach aims to assist poultry farmers and veterinarians in promptly identifying potential health issues.
 
 
-# CNN Model for Image Classification
+# Try out the App
+https://cluckcare.onrender.com
 
-This repository contains a Convolutional Neural Network (CNN) model implemented in TensorFlow/Keras for image classification. The model is trained on a dataset consisting of images belonging to three different classes.
+# Web Application Overview
 
-## Requirements
+🐔🐥🐓 CluckCare is a website harnessing the power of deep learning convolutional neural networks (CNN-VGG) to predict chicken diseases from uploaded images of their excretions. Our simple yet effective approach aims to assist poultry farmers and veterinarians in promptly identifying potential health issues.
 
-- TensorFlow
-- scikit-learn
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
+# CNN-VGG Model for Image Classification
 
-## Dataset
+Convolutional Neural Network - Visual Geometry Group (CNN-VGG) model implemented in TensorFlow/Keras for image classification. The model is trained on a dataset consisting of images belonging to three different classes.
 
-The dataset used for training and testing the model is located in the `DataSet` directory. It consists of images categorized into three classes. The dataset is split into training and testing sets using the `train_test_split` function from scikit-learn.
+![image](https://github.com/K-Senthil-Shunmugam/CluckCare/assets/113205555/a86fe681-4b1e-43a5-a262-186a015bbd4c)
 
-## Model Architecture
 
-The CNN model architecture is based on the VGG architecture. It consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected layers with ReLU activation and a softmax output layer for classification.
+## Training the Sentiment Analysis Model (Model Training.ipynb)
 
-## Model Training
+To train the CNN-VGG model for your own dataset, follow these instructions:
 
-The model is trained using the training data generated using `ImageDataGenerator` from Keras. The training process is visualized using Matplotlib. The model is compiled using the Adam optimizer and categorical cross-entropy loss function.
+1. **Ensure Dependencies:**
+   - Make sure you have Jupyter Notebook installed along with the required Python libraries mentioned in the provided `Model Training.ipynb` file.
 
-## Model Evaluation
+2. **Prepare Your Dataset:**
+   - you can download the Dataset used in this project either from Kaggle
+(https://www.kaggle.com/datasets/ramkishore1/bird-disease-dataset)
+   - Load the dataset from Kaggle or Replace it with your own dataset.
 
-The model achieves an accuracy of approximately 96.51% on the validation set. Model evaluation metrics include loss and accuracy plotted over epochs.
+4. **Run the Notebook:**
+   - Open the `Model Training.ipynb` notebook in Jupyter Notebook.
+   - Execute each cell in the notebook sequentially to load the dataset, preprocess the data, train the model, and save the trained model.
 
-## Usage
+5. **Adjust Hyperparameters (Optional):**
+   - You can adjust the hyperparameters such as callbacks, learning rate, batch size, and number of epochs according to your requirements.
 
-To use this model, follow these steps:
+6. **Save the Trained Model:**
+   - After training, the model will be saved as `model.h5` in the same directory.
+   - You can use this trained model for inference in the web app (`app.py`) provided in this repository.
 
-1. Install the required dependencies listed in the `Requirements` section.
-2. Clone this repository.
-3. Navigate to the repository directory.
-4. Run the training script.
+7. **Evaluate Model Performance (Optional):**
+   - Optionally, you can evaluate the performance of your trained model on a separate test dataset to assess its accuracy and other metrics.
 
-```bash
-python train_model.py
+8. **Customize as Needed:**
+   - Feel free to customize the notebook or extend the functionality based on your specific requirements.
+   - You can also integrate additional features or improve the model architecture for better performance.
