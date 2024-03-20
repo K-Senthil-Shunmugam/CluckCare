@@ -34,6 +34,7 @@ To train the CNN-VGG model for your own dataset, follow these instructions:
    - you can download the Dataset used in this project either from Kaggle
 (https://www.kaggle.com/datasets/ramkishore1/bird-disease-dataset)
    - Load the dataset from Kaggle or Replace it with your own dataset.
+   - I have dropped the NCD class in my version of the code since it has a very low number of samples.
 
 4. **Run the Notebook:**
    - Open the `Model Training.ipynb` notebook in Jupyter Notebook.
