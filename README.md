@@ -9,6 +9,8 @@ https://cluckcare.onrender.com
 
 The app is hosted on render cloud with the help of a docker image for you to try it out.
 
+If the website is not responding immediately please give it a few minutes since the container instances will scale down to zero after a period of in activity.
+
 # Run the Web App in a docker container
    - Just pull the following Docker image from Docker Hub
 
